@@ -9,6 +9,7 @@ const bubbleSort = (arr) => {
         isSwapped = true;
       }
     }
+    // If no element swapped in this interation just break the loop
     if (!isSwapped) {
       break;
     }
