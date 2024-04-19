@@ -35,7 +35,6 @@ queue1.enqueue(1);
 queue1.enqueue(2);
 console.log(queue1.queue);
 queue1.dequeue();
-queue1.dequeue();
 console.log(queue1.queue);
 console.log(queue1.peek());
 queue1.isEmpty();
