@@ -37,7 +37,7 @@ stack1.isEmpty();
 stack1.size();
 
 // Basic methods of stack:
-
+// LIFO OR FILO
 // 1. push(e)   --->  push an element to last of the stack
 // 2. pop()     --->  pop the last element of the stack
 // 3. peek()    --->  this will return last element of the stack
