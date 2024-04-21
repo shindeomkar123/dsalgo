@@ -12,5 +12,5 @@ Sorting algorithm
   <li>Array</li>
   <li>Stack</li>
   <li>Queue</li>
-  <li>Linked Lisr</li>
+  <li>Linked List</li>
 </ul>
