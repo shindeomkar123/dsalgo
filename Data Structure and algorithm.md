@@ -8,3 +8,9 @@ Sorting algorithm
 4. Merge Sort
 
 <h5>Data structures</h5>
+<ul>
+  <li>Array</li>
+  <li>Stack</li>
+  <li>Queue</li>
+  <li>Linked Lisr</li>
+</ul>
