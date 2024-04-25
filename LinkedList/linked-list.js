@@ -58,6 +58,38 @@ class SinglyLinkedList {
     }
     return current;
   }
+
+  // Add element to the head position
+  unshift(value) {
+    const newHead = new Node(value);
+    if (!this.head) {
+      this.head = newHead;
+      this.tail = newHead;
+      this.length++;
+      return;
+    }
+    newHead.next = this.head;
+    this.head = newHead;
+    this.length++;
+  }
+
+  // Remove head
+
+  shift() {
+    if (!this.head) return;
+    if (this.length === 1) {
+      const head = this.head;
+      this.head = null;
+      this.tail = null;
+      this.length = 0;
+      return head;
+    }
+    const prevHead = this.head;
+    const newHead = prevHead.next;
+    this.head = newHead;
+    this.length--;
+    return prevHead;
+  }
 }
 
 const list = new SinglyLinkedList();
@@ -71,4 +103,6 @@ console.log(list);
 list.push(11);
 list.push(23);
 console.log("=========================****===================");
+list.unshift(4);
+list.shift();
 console.log(list);
